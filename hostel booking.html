@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hostel booking</title>
+    <link rel="stylesheet" href="hostel booking.css">
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div class="nav-bar">
+            <div class="nav-header">
+                <div class="logo nav-logo">
+                    <div>H</div>
+                    <span>HOTEL <br>MIRANDA</span>
+                </div>
+                <DIV class="NAV-MENU-btn" id="menu-btn">
+                    
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#room">Room</a></li>
+            <li><a href="#feature">Feature</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#news">News</a></li>
+        </ul>
+    </DIV>
+    </nav>
+
+
+    <!-- header  -->
+     <header class="header" id="home">
+        <div class="section-container header-container">
+            <p class="section-subheader">About Us</p>
+            <h1>The Perfect<br>Base For You</h1>
+            <button class="btn">Take A Tour</button>
+        </div>
+     </header>
+
+     <!-- booking section  -->
+
+     <section class="booking">
+        <div class="section-container booking-container">
+            <form action="/">
+                <div class="input-group">
+                    <label for="arrival">Arrival Date</label>
+                    <input type="text" placeholder="Your arrival Date">
+                </div>
+                <div class="input-group">
+                    <label for="departure">Departure Date</label>
+                    <input type="text" placeholder="Your departure Date">
+                </div>
+                <div class="input-group">
+                    <label for="guests">Guests </label>
+                    <input type="text" placeholder="No of Guests ">
+                </div>
+                <button class="btn">Check Availability</button>
+            </form>
+        </div>
+     </section>
+
+     <!-- About -->
+
+     <section class="about" id="about">
+        <div class="section-container about-container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="about-1.jpg" alt="">
+                </div>
+                <div class="about-card">
+                    <span> <i class='bx bx-user'></i></span>
+                    <h4>Strong Team</h4>
+                    <p>Unloccking hOspitality Excellence And Ensures YOur Perfect Stay</p>
+                </div>
+                <div class="about-image">
+                    <img src="about-2.jpg" alt="">
+                </div>
+                <div class="about-card">
+                    <span> <i class='bx bx-calendar-check'></i></span>
+                    <h4>Luxury Room</h4>
+                    <p>Experience Unrivaled Luxury at Our Exquisite luxury Rooms</p>
+                </div>
+            </div>
+            <div class="about-content">
+                <p class="section-subheader">About Us</p>
+                <h2 class="section-header">Discover Our underground</h2>
+                <p class="section-description">
+                    Lorem ipsum dolor sit, amet consectetur 
+                    adipisicing elit. Sequi esse et ut illum eligendi,
+                     minima consectetur fuga qui tenetur odit dicta
+                      nostrum pariatur! Accusantium, reprehenderit.
+                       Mollitia, odio officia. Sit, eveniet.
+
+                </p>
+                <button class="btn">Book Now </button>
+            </div>
+        </div>
+
+
+        <!-- room container  -->
+     </section>
+     <section class="room-container" id="room">
+        <p class="section-subheader">ROOMS</p>
+        <h2 class="section-header">Hand Picked Rooms</h2>
+        <div class="room-grid">
+            <div class="room-card">
+                <img src="room-1.jpg"   alt="">
+                <div class="room-card-details">
+                    <div>
+                        <h4>Deluxe Suite</h4>
+                        <p>Well-apointed rooms designed for guesets who desire a more</p>
+
+                    </div>
+                    <h3>$399<span>night</span></h3>
+                </div>
+            </div>
+            <div class="room-card">
+                <img src="room-2.jpg"   alt="">
+                <div class="room-card-details">
+                    <div>
+                        <h4>Family Suite</h4>
+                        <p>Consits of multiple rooms and a common living area</p>
+
+                    </div>
+                    <h3>$399<span>night</span></h3>
+                </div>
+            </div>
+            <div class="room-card">
+                <img src="room-3.jpg"   alt="">
+                <div class="room-card-details">
+                    <div>
+                        <h4>Luxury Penthouse</h4>
+                        <p>top-tier accommodations usually on the highest floors of a hotel</p>
+
+                    </div>
+                    <h3>$399<span>night</span></h3>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- intro  -->
+      <section class="intro">
+        <div class="section-container intro-container">
+            <div class="intro-cotent">
+                <p class="section-subheader">
+                    Intro video
+                </p>
+                <h2 class="section-header">
+                    Meet With Our Luxury Place
+                </h2>
+                <p class="section-description">
+                    whether you're seeking a cozy and exclusive hideaway a journey beneath the surface, Hotel Miranda promises to unforgetteable stay, wher the depths of comfort and you arrival.
+                </p>
+                <button class="btn">Book Now</button>
+            </div>
+            <div class="intro-video">
+                <video src="luxury.mp4" autoplay muted loop></video>
+            </div>
+        </div>
+      </section>
+
+      <!-- feature  -->
+       <section class="section-container feature-container" id="feature">
+        <p class="section-subheader">FACILITIES</p>
+        <h2 class="section-header">Core Features</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <Span> <i class="fa-solid fa-thumbs-up"></i></Span>
+                <h4>Have High Rating</h4>
+                <p>WE take pride in curating a section of hotels that const receive high rating and positive reviews</p>
+            </div>
+            <div class="feature-card">
+                <Span> <i class='bx bx-thumbup'></i></Span>
+                <h4>Have High Rating</h4>
+                <p>WE take pride in curating a section of hotels that const receive high rating and positive reviews</p>
+            </div>
+            <div class="feature-card">
+                <Span> <i class='bx bx-thumbup'></i></Span>
+                <h4>Quite Hours</h4>
+                <p>We understand that peace and uniterrupted rest are essention rejuvenating experience</p>
+            </div>
+            <div class="feature-card">
+                <Span> <i class='bx bx-thumbup'></i></Span>
+                <h4>Best location</h4>
+                <p> At our  hotel booking website, we take pride in offering accomodations in the most prime and sought-after loccations</p>
+            </div>
+            <div class="feature-card">
+                <Span> <i class='bx bx-thumbup'></i></Span>
+                <h4>Free cancellation</h4>
+                <p> We understand that travel plans can change unexpectedly, while why we offer the flexibilitu of free cancellation</p>
+            </div>
+            <div class="feature-card">
+                <Span> <i class='bx bx-thumbup'></i></Span>
+                <h4>Payment Options</h4>
+                <p>Our hotel booking website offers a range of convenient payment options to suits to your preferences</p>
+            </div>
+            <div class="feature-card">
+                <Span> <i class='bx bx-thumbup'></i></Span>
+                <h4>Special Option</h4>
+                <p> Whether you're planning a romantic gateway , or a business trip carefuly curated special offers cater to all your needs.</p>
+            </div>
+        </div>
+       </section>
+
+       <!-- menu section  -->
+        <section class="menu" id="menu">
+            <div class="section-container menu-container">
+                <div class="menu-header">
+                    <div>
+                        <p class="section-subheader">Menu</p>
+                        <h2 class="section-header">
+                            Our Food menu
+                        </h2>
+                    </div>
+                    <div class="section-nav">
+                    <span><i class="bx bx-left-arrow"></i></span>
+                    <span><i class="bx bx-right-arrow"></i></span>
+                    </div>
+                </div>
+                <ul class="menu-items">
+                    <li>
+                        <img src="menu-1.jpg" alt="">
+                        <div class="menu-details">
+                            <h4>Eggs & Bacon</h4>
+                            <p>It is a culinary innovation that puts a unique spin beloved breakfast combination.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="menu-2.jpg" alt="">
+                        <div class="menu-details">
+                            <h4>Tea & coffee</h4>
+                            <p>A classic choice for your daily dose f control comfort and calmness .</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="menu-3.jpg" alt="">
+                        <div class="menu-details">
+                            <h4>Chia Oatmeal</h4>
+                            <p>Our chia oatmeal is a wholesome nutrient-packed breakfast delight..</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="menu-4.jpg" alt="">
+                        <div class="menu-details">
+                            <h4>fruits Parfait </h4>
+                            <p> Our fruit Parfait is a delightful culinary masterpiece of freshness our flavor</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="menu-5.jpg" alt="">
+                        <div class="menu-details">
+                            <h4>Marmalade Selection</h4>
+                            <p>Our Marmalade Selection is a delectable medley of handcrafted citrus preserves.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="menu-6.jpg" alt="">
+                        <div class="menu-details">
+                            <h4>Chees Plate</h4>
+                            <p>Our cheese plate is a masterpiece that celebrates diverse world of cheese.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="menu-7.jpg" alt="">
+                        <div class="menu-details">
+                            <h4> fruit Parfait </h4>
+                            <p> our friut parfait si a delighrul culinary master piece of freshness and flavor .</p>
+                        </div>
+                    <li>
+                        <img src="menu-8.jpg" alt="">
+                        <div class="menu-details">
+                            <h4>Eggs & Bacon</h4>
+                            <p>It is a culinary innovation that puts a unique spin beloved breakfast combination.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="menu-9.jpg" alt="">
+                        <div class="menu-details">
+                            <h4>Chesse Plate </h4>
+                            <p>Our cheese plate is a masterpiece that celebrates rich anddiverse world of cheese.</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="menu-images">
+                    <img src="menu-7.jpg" alt="">
+                    <img src="menu-8.jpg" alt="">
+                    <img src="menu-9.jpg" alt="">
+                </div>
+                <ul class="menu-banner"><li>
+                    <span><i class='bx bxs-file-plus'></i></span>
+                    <h4>84</h4>
+                    <p>Project are completed</p>
+                </li>
+                <span><i class='bx bxs-user'></i></span>
+                <h4>84</h4>
+                <p>Active around the World</p>
+            </li>
+            <span><i class='bx bxs-bulb'></i></span>
+            <h4>84</h4>
+            <p>Categories are completed</p>
+        </li>
+        <span><i class='bx bxs-bulb'></i></span>
+        <h4>84</h4>
+        <p>Ideas Raised funds</p>
+    </li>
+
+            </ul>
+            </div>
+        </section>
+
+        <!-- new letter -->
+         <section class="section-container new-container">
+            <div class="news-header">
+                <div>
+                    <p class="section-subheader">Blog</p>
+                        <h2 class="section-header">News Feeds</h2>
+                    
+                </div>
+                <div class="section-nav">
+                    <span><i class="bx bx-left-arrow"></i></span>
+                    <span><i class="bx bx-right-arrow"></i></span>
+                    </div>
+            </div>
+            <div class="news-grid">
+               
+                <div class="news-cards">
+                    <img src="news-1.jpg" alt=" ">  
+                    <div class="news-card-title">
+                        <p>25th March 2025</p>
+                        <p>By emily</p>
+                    </div>
+                    <h4>Exploring Local Culinary Gems: A foodie Guide.</h4>
+                    <p>Join Emily as she takes you on a gastronimic adventures 
+                        the thorugh the neighbourhood surrounding our hotel.
+                        
+                    </p>
+                </div>
+                <div class="news-cards">
+                    <img src="news-2.jpg" alt=" ">  
+                    <div class="news-card-title">
+                        <p>25th March 2025</p>
+                        <p>By emily</p>
+                    </div>
+                    <h4>Exploring Local Culinary Gems: A foodie Guide.</h4>
+                    <p>Join Emily as she takes you on a gastronimic adventures 
+                        the thorugh the neighbourhood surrounding our hotel.
+                        
+                    </p>
+                </div>
+                <div class="news-cards">
+                    <img src="news-3.jpg" alt=" ">  
+                    <div class="news-card-title">
+                        <p>25th March 2025</p>
+                        <p>By emily</p>
+                    </div>
+                    <h4>Exploring Local Culinary Gems: A foodie Guide.</h4>
+                    <p>Join Emily as she takes you on a gastronimic adventures 
+                        the thorugh the neighbourhood surrounding our hotel.
+                        
+                    </p>
+                </div>
+            </div>
+         </section>
+
+         <!-- footer section  -->
+          <section class="footer">
+            <div class="section-container footer-container">
+                <div class="footer-col">
+                    <div class="logo footer-logo">
+                        <div>H</div><span>HOTEL <BR>MIRANDA</span>
+                    </div>
+                    <p class="section-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, mollitia est odio dolorum ad magnam quisquam rerum veniam eligendi rem sint ipsum? Laborum corrupti tempora maxime atque distinctio pariatur labore dolores earum illo.</p>
+                    <ul class="footer-socials">
+                        <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
+                        <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+                        <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+                        <li><a href="#"><i class='bx bxl-linkedin'></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <div class="footer-links">
+                        <li><a href="#">Online Booking</a></li>
+                        <li><a href="#">Room Customization</a></li>
+                        <li><a href="#">virtual Tours</a></li>
+                        <li><a href="#">Special Offers</a></li>
+                        <li><a href="#">concierge Services </a></li>
+                        <li><a href="#">customer Support</a></li>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <div class="footer-links">
+                        <li><span><i class="bx bx-phone"></i></span>
+                        <div>
+                            <h5>Phone Number</h5>
+                            <P>91 9876543219</P>
+                        </div>
+                        </li>
+                        <li><span><i class="bx bx-phone"></i></span>
+                            <div>
+                                <h5>Email</h5>
+                                <P>info@hotelmiranda</P>
+                            </div>
+                            </li>
+                            <li><span><i class="bx bx-map-pin"></i></span>
+                                <div>
+                                    <h5>Location</h5>
+                                    <P>first st. NYC</P>
+                                </div>
+                                </li>
+                    </div>
+                </div>
+                <div class="footer-bar">
+                    Copyright C 2023 Web Design Mastery. All right reserved.
+                </div>
+            </div>
+          </section>
+     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="hostel booking.js"></script>
+</body>
+</html>
